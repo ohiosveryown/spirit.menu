@@ -6,6 +6,53 @@
   font-display: block;
 }
 
+@font-face {
+  font-family: "serif";
+  src: url("~/assets/type/serif.woff2") format("woff2");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "sans";
+  src: url("~/assets/type/sans.woff2") format("woff2");
+  font-display: block;
+}
+
+@font-face {
+  font-family: "italic";
+  src: url("~/assets/type/italic.woff2") format("woff2");
+  font-display: block;
+}
+
 .monospace {
   font-family: "mono", Courier, monospace;
+}
+
+@mixin monospace {
+  font-family: "mono", Courier, monospace;
+}
+
+.serif {
+  font-family: "serif", Georgia, 'Times New Roman', Times, serif;
+}
+
+@mixin serif {
+  font-family: "serif", Georgia, 'Times New Roman', Times, serif;
+}
+
+.sans {
+  font-family: "sans", Arial, Helvetica, sans-serif;
+}
+
+@mixin sans {
+  font-family: "sans", Arial, Helvetica, sans-serif;
+}
+
+
+.italic {
+  font-family: "italic", Arial, Helvetica, sans-serif;
+}
+
+@mixin italic {
+  font-family: "italic", Arial, Helvetica, sans-serif;
 }
