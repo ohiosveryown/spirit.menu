@@ -7,5 +7,16 @@ export default defineNuxtConfig({
     '/': { prerender: true }
   },
 
+  // global styles
+  css: ["./assets/style/reset.scss", "./assets/style/type.scss", "./assets/style/util.scss"],
+
+  // content
+  content: {
+    documentDriven: true,
+    markdown: {
+      anchorLinks: false,
+    },
+  },
+
   compatibilityDate: '2024-08-14'
 })
