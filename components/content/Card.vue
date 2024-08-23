@@ -13,10 +13,17 @@
     flex-direction: column;
     border-radius: var(--border-radius--sm);
     border: 1px solid #ddd4be;
-    @include breakpoint(lg) {
+    width: 100%;
+    @include breakpoint(md) {
       gap: 1.2rem;
       padding: 2.2rem 2.4rem 2rem;
+      width: 25vw;
+    }
+    @include breakpoint(lg) {
       width: 21vw;
+    }
+    @include breakpoint(xl) {
+      width: 14vw;
     }
   }
 
@@ -32,7 +39,7 @@
 
   :deep(h2) {
     @include monospace;
-    margin: 0.4rem 0 0.8rem;
+    margin: 1.2rem 0 0.2rem;
     border-top: 0.5px solid #ddd4be;
     border-bottom: 0.5px solid #ddd4be;
     padding: 0.5rem 0 0.6rem;
@@ -45,12 +52,22 @@
     text-align: justify;
   }
 
-  :deep(p + p) {
-    text-indent: 3ch;
+  :deep(article:before),
+  :deep(article:after) {
+    content: "***";
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 0;
+    text-align: center;
+    opacity: 0.76;
   }
 
-  :deep(p + p:nth-of-type(2)) {
+  :deep(article p:first-of-type) {
     text-indent: 0;
+  }
+
+  :deep(article p) {
+    text-indent: 3ch;
   }
 
   :deep(.flourish) {
@@ -80,6 +97,7 @@
   :deep(td + td) {
     @include monospace;
     opacity: 1;
+    text-transform: none;
   }
 </style>
 

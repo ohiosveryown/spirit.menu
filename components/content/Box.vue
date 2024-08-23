@@ -1,5 +1,7 @@
 <template>
-  <div class="box"></div>
+  <div class="box">
+    {{ label }}
+  </div>
 </template>
 
 <style scoped>
@@ -10,3 +12,9 @@
     height: 300px;
   }
 </style>
+
+<script setup>
+  const props = defineProps({
+    label: String,
+  })
+</script>

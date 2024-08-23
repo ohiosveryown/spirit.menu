@@ -14,8 +14,9 @@
 .width {
   position: relative;
   margin: 0 auto;
-  max-width: var(--max-width);
-  width: 90vw;
+  padding: 1.6rem;
+  // max-width: var(--max-width);
+  // width: 90vw;
 }
 
 // opacity
@@ -58,4 +59,21 @@
 // detail
 .figure--detail {
   width: 400px;
+}
+
+.two {
+  left: 22.5% !important;
+}
+
+.three {
+  left: 45% !important;
+}
+
+.four {
+  left: 67.5% !important;
+}
+
+.five {
+  left: initial !important;
+  right: 0 !important;
 }
