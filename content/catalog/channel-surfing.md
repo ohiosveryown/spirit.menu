@@ -7,6 +7,24 @@ bitter: "three"
 savory: "two"
 sour: "four"
 sweet: "three"
+recipe:
+  - ingredient: "Mezcal"
+    volume: "1.5oz"
+  - ingredient: "Maraschino liqueur"
+    volume: "1.5oz"
+  - ingredient: "Poppy Amaro"
+    volume: "0.5oz"
+  - ingredient: "Nonino Amaro"
+    volume: "0.5oz"
+  - ingredient: "Grenadine"
+    volume: "0.25oz"
+  - ingredient: "Lemon juice"
+    volume: "1.5oz"
+  - ingredient: "Orange Twist garnish"
+    volume: ""
+profile:
+  - balance: "four"
+  - bitter: "two"
 ---
 
 ::Card

@@ -54,7 +54,7 @@
   }
   img {
     border-radius: var(--border-radius--sm);
-    width: 8.8rem;
+    width: 8.4rem;
     height: 11.2rem;
     object-fit: cover;
     transition: transform 300ms ease;

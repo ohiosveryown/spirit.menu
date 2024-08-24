@@ -17,15 +17,15 @@
     width: 100%;
     @include breakpoint(md) {
       gap: 1.2rem;
-      padding: 2.2rem 2.4rem 2rem;
+      padding: 2.2rem 2.4rem;
       width: 25vw;
     }
     @include breakpoint(lg) {
-      padding: 2.4rem 2.9rem 2.2rem;
+      padding: 2.4rem 2.9rem;
       width: 19vw;
     }
     @include breakpoint(xl) {
-      padding: 3.2rem 4.4rem 2.4rem;
+      padding: 3.2rem 4.4rem 4.4rem;
       width: 14vw;
     }
   }
