@@ -50,7 +50,8 @@
     display: flex;
     flex-direction: column;
     border-top: 0.5px solid var(--color--secondary);
-    padding: 2.4rem 0 0.6rem;
+    border-bottom: 0.5px solid var(--color--secondary);
+    padding: 2.4rem 0;
   }
 
   li {

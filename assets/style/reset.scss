@@ -16,6 +16,7 @@
   --z0: -1;
   --zmin: -9999;
   // colors
+  --color--highlight: #fffaed;
   --color--primary: #fff7e3;
   --color--secondary: #cac1a8;
   --color--tertiary: #ddd4be82;
@@ -47,7 +48,7 @@ body {
   font: normal 1.5rem/1.5 var(--system-font);
   color: var(--color--primary);
   text-rendering: optimizeSpeed;
-  background: linear-gradient(112deg, #31291f 8%, #271f16 94%);
+  background: #2A231B;
 }
 
 h1,

@@ -1,14 +1,15 @@
 <template>
-  <section>
+  <aside>
     <slot />
-  </section>
+    <Sibling />
+  </aside>
 </template>
 
 <style lang="scss" scoped>
   @import "/assets/style/grid.scss";
   @import "/assets/style/type.scss";
 
-  section {
+  aside {
     display: flex;
     flex-direction: column;
     border-radius: var(--border-radius--sm);
@@ -20,9 +21,11 @@
       width: 25vw;
     }
     @include breakpoint(lg) {
-      width: 21vw;
+      padding: 2.4rem 2.9rem 2.2rem;
+      width: 19vw;
     }
     @include breakpoint(xl) {
+      padding: 3.2rem 4.4rem 2.4rem;
       width: 14vw;
     }
   }
@@ -33,8 +36,8 @@
     letter-spacing: -0.25px;
     line-height: 1;
     // text-align: center;
-    -webkit-text-stroke: 0.25px var(--color--primary);
-    text-stroke: 0.25px var(--color--primary);
+    -webkit-text-stroke: 0.25px var(--color--highlight);
+    text-stroke: 0.25px var(--color--highlight);
   }
 
   :deep(h2) {

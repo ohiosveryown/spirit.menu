@@ -27,9 +27,12 @@
   }
 
   img {
+    position: sticky;
+    top: 1.6rem;
     flex: 1;
     border-radius: var(--border-radius--sm);
     min-height: calc(100vh - 3.2rem);
+    max-height: calc(100vh - 3.2rem);
     object-fit: cover;
   }
 </style>

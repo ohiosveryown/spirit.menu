@@ -31,7 +31,7 @@ sweet: ""
 
 **{{title}}** is a surrealist's daydream; cantaloupe-infused gin tangos with lemon-dill vermouth, while a whisper of dill oil coyly flirts from the sidelines.
 
-It's a simple cocktail that warps your tastebuds in technicolor.
+This unique combination creates a simple cocktail that warps your tastebuds in technicolor, transforming a moment of relaxation into a vibrant, multi-sensory journey.
 
 </article>
 
