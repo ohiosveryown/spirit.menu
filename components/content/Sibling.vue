@@ -1,6 +1,9 @@
 <template>
   <footer>
-    <header>Explore:</header>
+    <header>
+      <span>Explore:</span>
+      <NuxtLink to="/"> Index </NuxtLink>
+    </header>
     <ul>
       <li v-if="prev">
         <NuxtLink :to="prev._path">
@@ -32,8 +35,17 @@
 
   header {
     @include sans;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
     padding: 1.2rem 0 0.6rem;
     color: var(--color--secondary);
+  }
+
+  header a {
+    width: max-content;
+    text-align: right;
+    text-decoration: underline;
   }
 
   ul {
