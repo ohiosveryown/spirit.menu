@@ -9,11 +9,11 @@ recipe:
   - ingredient: "lime juice"
     volume: "2oz"
   - ingredient: "diced pineapple"
-    volume: "1/4 cup"
+    volume: "1/4cup"
   - ingredient: "sliced jalepeño"
     volume: "1-2"
   - ingredient: "cinnamon"
-    volume: "1 dash"
+    volume: "(1)dash"
   - ingredient: "mint leaf"
     volume: ""
 

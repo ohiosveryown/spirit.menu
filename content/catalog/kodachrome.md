@@ -4,28 +4,24 @@ location: "Ranger Station • 24"
 figure: "https://res.cloudinary.com/dn1q8h2ga/image/upload/v1724344523/spirit.menu/kodachrome_2x_ru3yhe.webp"
 
 recipe:
-  - ingredient: "Blanco tequila"
+  - ingredient: "cantaloupe-infused gin"
     volume: "2oz"
-  - ingredient: "lime juice"
-    volume: "2oz"
-  - ingredient: "diced pineapple"
-    volume: "1/4 cup"
-  - ingredient: "sliced jalepeño"
-    volume: "1-2"
-  - ingredient: "cinnamon"
-    volume: "1 dash"
-  - ingredient: "mint leaf"
+  - ingredient: "lemon-dill Dry vermouth"
+    volume: "1oz"
+  - ingredient: "dill oil"
+    volume: "1dp"
+  - ingredient: "Rosemary Garnish"
     volume: ""
 
 balance: "four"
-bitter: ""
+bitter: "two"
 savory: "two"
-sour: "four"
-sweet: "three"
+sour: "three"
+sweet: ""
 ---
 
-¶ **{{title}}** is a liquid game of spicy gamble, merging blanco tequila's audacious tang with the tropical allure of fresh pineapple juice.
+¶ Imagine sipping on the very essence of a summer afternoon, holographically projected through a kaleidoscope. The moment the glass touches your lips, you're transported to a vibrant world where colors are more vivid, and every sensation is heightened.
 
-A cheeky dash of cinnamon flirts with fiery slivers of jalapeño, creating a tongue-tingling duet. Pineapple and mint garnishes taunt from the glass rim, promising a sip that's as exhilarating as it is unpredictable.
+**{{title}}** is a surrealist's daydream; cantaloupe-infused gin pirouettes with lemon-dill vermouth in a dance of flavors, swirling gracefully with each stir. A whisper of dill oil coyly flirts from the sidelines, adding an unexpected yet delightful twist.
 
-Sip bravely, discover truth; gulp recklessly, face consequences.
+As the layers of taste unfold, you'll find yourself lost in a sensory experience that defies reality. It's a simple cocktail that warps your tastebuds in technicolor, inviting you to indulge in its playful complexity and savor the artistic blend of its ingredients.

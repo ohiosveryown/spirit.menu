@@ -109,19 +109,21 @@
     z-index: var(--z1);
     top: 0;
     left: 0;
+    max-width: 100vw;
     width: 100vw;
     min-height: 100dvh;
     height: 100dvh;
     object-fit: cover;
     pointer-events: none;
-    mix-blend-mode: multiply;
-    opacity: 0.4;
+    mix-blend-mode: color-burn;
+    opacity: 1;
   }
 
   main {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 1.6rem;
+    width: 100%;
     @include breakpoint(md) {
       flex-direction: row;
     }
@@ -130,12 +132,16 @@
   aside {
     display: flex;
     flex-direction: column;
+    gap: 1.2rem;
     border-radius: var(--border-radius--sm);
     border: 1px solid #ddd4be;
+    padding: 4rem;
     width: 100%;
     height: max-content;
+    @include breakpoint(sm) {
+      padding: 6.4rem 6.4rem 6.4rem;
+    }
     @include breakpoint(md) {
-      gap: 1.2rem;
       padding: 2.2rem 2.4rem 2.4rem;
       width: 25vw;
     }
@@ -273,13 +279,21 @@
   }
 
   img {
-    position: sticky;
-    top: 1.6rem;
     flex: 1;
+    margin-bottom: 2.4rem;
     border-radius: var(--border-radius--sm);
-    min-height: calc(100vh - 3.2rem);
-    max-height: calc(100vh - 3.2rem);
+    width: 100%;
+    height: 50dvh;
     object-fit: cover;
+    pointer-events: none;
+    @include breakpoint(md) {
+      position: sticky;
+      top: 1.6rem;
+      margin-bottom: 0;
+      width: 400px;
+      min-height: calc(100vh - 3.2rem);
+      max-height: calc(100vh - 3.2rem);
+    }
   }
 </style>
 

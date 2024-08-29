@@ -7,13 +7,13 @@
   }
 
   @if $class ==sm {
-    @media (min-width: 400px) {
+    @media (min-width: 600px) {
       @content;
     }
   }
 
   @else if $class ==md {
-    @media (min-width: 700px) {
+    @media (min-width: 900px) {
       @content;
     }
   }
