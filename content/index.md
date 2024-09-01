@@ -4,5 +4,3 @@ figure: "https://res.cloudinary.com/dn1q8h2ga/image/upload/v1724471543/spirit.me
 ---
 
 :Cover
-
-<!-- :List -->
