@@ -14,7 +14,14 @@
 .width {
   position: relative;
   margin: 0 auto;
+  padding: 2.4rem;
+  width: 100vw;
+  @include breakpoint(sm) {
+    padding: 4rem;
+  }
+@include breakpoint(mdl) {
   padding: 1.6rem;
+}
   // max-width: var(--max-width);
   // width: 90vw;
 }
@@ -57,10 +64,6 @@
 }
 
 // detail
-.figure--detail {
-  width: 400px;
-}
-
 .two {
   left: 22.5% !important;
 }
