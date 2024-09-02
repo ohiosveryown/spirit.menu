@@ -21,14 +21,15 @@
 
   aside {
     display: flex;
+    gap: 1.2rem;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+    width: 100%;
     @include breakpoint(lg) {
       gap: 4rem;
-      width: 28vw;
-      height: 100vh;
+      height: calc(100vh - 3.2rem);
     }
   }
 

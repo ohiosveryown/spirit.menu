@@ -122,10 +122,11 @@
   main {
     display: flex;
     flex-direction: column-reverse;
-    gap: 1.6rem;
+    gap: 0.6rem;
     width: 100%;
     @include breakpoint(md) {
       flex-direction: row;
+      gap: 1.6rem;
     }
   }
 
@@ -135,7 +136,7 @@
     gap: 1.2rem;
     border-radius: var(--border-radius--sm);
     border: 1px solid #ddd4be;
-    padding: 4rem;
+    padding: 3.2rem;
     width: 100%;
     height: max-content;
     @include breakpoint(sm) {
@@ -279,16 +280,17 @@
   }
 
   img {
-    flex: 1;
     margin-bottom: 2.4rem;
-    border-radius: var(--border-radius--sm);
+    border-radius: var(--border-radius--lg);
     width: 100%;
-    height: 50dvh;
+    height: 36vh;
     object-fit: cover;
     pointer-events: none;
     @include breakpoint(md) {
+      flex: 1;
       position: sticky;
       top: 1.6rem;
+      border-radius: var(--border-radius--sm);
       margin-bottom: 0;
       width: 400px;
       min-height: calc(100vh - 3.2rem);
