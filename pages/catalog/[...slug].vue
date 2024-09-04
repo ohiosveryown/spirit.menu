@@ -9,7 +9,9 @@
     <ContentDoc>
       <template v-slot="{ doc }">
         <aside>
-          <h1>{{ doc.title }}</h1>
+          <h1>
+            <nuxt-link to="/">{{ doc.title }}</nuxt-link>
+          </h1>
 
           <table>
             <thead>
@@ -159,12 +161,27 @@
   // text styles
   h1 {
     @include italic;
+    position: relative;
     font-size: 3rem;
     letter-spacing: -0.16px;
     line-height: 1;
-    // text-align: center;
     -webkit-text-stroke: 0.32px var(--color--highlight);
     text-stroke: 0.32px var(--color--highlight);
+  }
+
+  h1:before {
+    content: "\219C";
+    position: absolute;
+    top: 0;
+    left: -2.1rem;
+    opacity: 0;
+    transition: opacity 300ms ease 100ms;
+  }
+
+  @media (pointer: fine) {
+    h1:hover:before {
+      opacity: 1;
+    }
   }
 
   h2 {

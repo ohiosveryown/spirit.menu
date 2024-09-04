@@ -65,8 +65,9 @@
     border-radius: 20rem;
     width: 13.2rem;
     height: 13.2rem;
+    padding: 0.2rem 0.4rem 0;
     text-align: center;
-    line-height: 1.3;
+    line-height: 1.2;
     color: var(--color--bg);
     background: var(--color--primary);
     box-shadow: var(--shadow--xs);
