@@ -150,7 +150,7 @@
     }
     @include breakpoint(lg) {
       padding: 2.4rem 2.9rem 2.9rem;
-      width: 19vw;
+      width: 24vw;
     }
     @include breakpoint(xl) {
       padding: 3.2rem 4.4rem 4.4rem;
